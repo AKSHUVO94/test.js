@@ -117,30 +117,24 @@
 // )
 
 
-let Num=[5,2];
+let Name = ["A", "S", "K", "AK"]
 
-Num.forEach(function(A)  {
-    switch(A){
-        case 2:
-            console.log("Feb")
+Name.forEach(function(A){
+    switch (A){
+        case "A":
+            console.log("Ak");
             break;
-        case 4:
-            console.log("April")
+        case "S":
+            console.log("Shuvo");
             break;
-        case 6:
-            console.log("June")
-            break;
-        case 8:
-            console.log("Augest")
-            break;
-        case 10:
-            console.log("October") 
+        case "Ak":
+            console.log("Ak shuvo");
             break;
         default:
-            console.log("Not valid Month")
-
-
             
-    }
-    
-});
+            break;    
+        }
+})
+
+   
+

@@ -1,9 +1,9 @@
-// var a = 2;
-// var b = 5;
+var a = 2;
+var b = 5;
 
-// if(b>a){
-// console.log("Thats Right")
-// }
+if(b>a){
+console.log("Thats Right")
+}
 
 
 //  if else if and else statement 
